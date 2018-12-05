@@ -1,0 +1,8 @@
+<h3> Edit</h3>
+<p>Name: {{author}}</p>
+<form action="/changeentry" method="POST">
+    <p>Your message: </p>
+    <input type = "hidden" name="id" value="{{ID}}">
+    <p><textarea name="message" rows=10 cols=60>{{message}}</textarea></p>
+    <p><input type="submit" value="Submit"/></p>
+</form>
